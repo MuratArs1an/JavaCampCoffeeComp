@@ -8,7 +8,7 @@ public class Main {
 		customer.id=1;
 		customer.firstName="Murat";
 		customer.lastName="Arslan";
-		customer.nationalId=13390071734L;
+		customer.nationalId=13330031333L;
 		CustomerManager customerManager=new StarbucksCustomerManager(new MernisServiseAdapter());
 		customerManager.save(customer);
 
